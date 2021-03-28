@@ -21,7 +21,6 @@ export default class User {
   name!: string;
 
   @Column({
-    length: 10,
     nullable: false,
   })
   number!: number;
